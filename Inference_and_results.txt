@@ -1,0 +1,107 @@
+Understanding the data: 
+
+-------------------------------------------------------------------------------------------------------------- 
+
+The file defines the transactional data of 5 products(laptop,notebook,t-shirt,sofa,apple) across different cities. 
+
+It also describes about the customer id, quantity purchased, discount provided, total sales and other data. 
+
+To conduct a profitable business proper inventory, stock requirement and customers preference should be properly analysed to invest at the right place in a right amount. 
+
+SQL queries has been executed for the same to infer the product with highest purchases, unique items bought by the customers, type of transaction preferred, whether online or offline store 
+
+Ranked the cities with highest revenue based on total revenue and no of transactions. 
+
+Checked the customers who spent more than average amount,expediture based on the age group. 
+
+Analysed whether the promotional offers and discounts are affecting the sales. if so, which customers got the highest discount and how is discount varied based on loyalty points 
+
+which products has been returned the highest and from which city. 
+
+-------------------------------------------------------------------------------------------------------------- 
+
+Results: 
+
+Total no of transactions is 500000 
+
+Bangalore has the highest transaction count 
+
+Debit card transactions are highly preferred following cash UPI credit card 
+
+10202662960.19042 is the total revenue generated 
+
+Customer id 34341 has the highest average purchase of 99687 
+
+Notebook has highest transactions and sofa being the least, but considering the cost laptop earns the most. 
+
+Even though laptop has fewer sales but has higher revenue inferring it has a higher price point 
+
+Kolkata has highest revenue and Hyderabad being the least 
+
+when 50% discount is provided, Kolkata earned a good revenue and has the highest average sales 
+
+People with age 20-30 are the targeted customers and sale need to be improved for age below 20. people around 31-40 and 41-50 age has the similar count of customers 
+
+North and west has the similar average delivery time while most data are empty 
+
+Customer id 43770, belongs to age group 41-50 has higher loyalty points and 5 people are above 50 and rest goes with other age group in the top 10 
+
+Customer id 43135 has made the highest returns and most of the returns are unorganised in terms of data  
+
+Even though a product is not promotional, has higher number of transaction and total transaction cost   
+
+Notebook has the highest returns and total amount refunded is 12 million approximately. 
+
+Since laptop and sofa are at high prices, they have less returns have the higher refund amount 
+
+Delhi has highest count of returns 
+
+Laptop has the highest revenue, this can also be added to stored procedure  
+
+Ahmedabad ranks the TOP city based on total spent amount 
+
+The purchases recorded that most customers have bought all the 5 products 
+
+Customers are preferring offline a little more compared to online considering the number of transactions and transactions value, but considering the total quantity online is leading 
+
+Customers preferring both modes of stores, considering most of customers purchased both in online and offline mode 
+
+Many customers repurchased the same item multiple times .39540 and 39732 has repurchased sofa and laptop respectively multiple time 
+
+Debit card is most used payment method by high-spending customers 
+
+32460 has spent more than the average transaction amount 
+
+A person with highest loyalty points of 9999 gets a discount of 21% but there is higher discount provided to other customers since they have more transactions  
+
+32460 and 39732 are top spending customers and rest are ordered 
+
+Average feedback scores around 2.9-3.0 irrespective of the delivery time 
+
+--------------------------------------------------------------------------------------------------------------
+
+INFERENCES: 
+
+The targeted customers belong to age group of 21-30 and cost can be reduced for promotions. 
+
+Loyalty points can be maintained in the way it is. Focus is needed for Delhi market as we see more product returns, 
+
+Inventory should be carefully maintained at Kolkata since we see higher sales. 
+
+Laptop should also be properly warehoused for all the locations since we have a higher profit margin. 
+
+The repeated customers ranked can be analysed more to analyse the focus markets like Kolkata. 
+
+  
+
+-------------------------------------------------------------------------------------------------------------- 
+
+  
+
+  
+
+  
+
+ 
+
+ 
